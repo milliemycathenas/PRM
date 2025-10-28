@@ -1,0 +1,70 @@
+\documentclass{article}
+
+% \usepackage{ctex}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{datetime}
+\usepackage{amsmath}
+
+\linespread{1.8}
+
+\begin{document}
+
+\begin{equation*}
+    \begin{aligned}
+        B(M1, I\alpha \rightarrow I'\alpha')
+                      & = \frac{3}{4\pi} \big| \sum_{K\phi} \sum_{K'\phi'} C_{\phi}^{IK} C_{\phi'}^{I'K'}                                             \\
+        \sum_{\mu} \{ & \langle IK1\mu \big| I'K' \rangle \langle \phi' (g_p-g_R)\big| j_{p\mu} + (g_n-g_R)j_{n\mu} \big| \phi \rangle                \\
+        + (-1)^{I-K}  & \langle I-K1\mu \big| I'K' \rangle \langle \phi' \big| (g_p-g_R)j_{p\mu} + (g_n-g_R)j_{n\mu} \big| \bar{\phi} \rangle \big|^2
+    \end{aligned}
+\end{equation*}
+
+
+\begin{figure}[htpb]
+    \centering
+    \includegraphics*[width=100pt]{arrow.jpg}
+\end{figure}
+
+
+
+\begin{equation*}
+    \begin{aligned}
+        B(M1, I\alpha \rightarrow I'\alpha')
+                           & = \frac{3}{4\pi} \big| \sum_{K\phi} \sum_{K'\phi'} C_{\phi}^{IK} C_{\phi'}^{I'K'}\{                              \\
+                           & \langle IK11 \big| I'K' \rangle (g_p-g_R) \langle \phi' \big| j_{p+1} \big| \phi \rangle                         \\
+        +                  & \langle IK11 \big| I'K' \rangle (g_n-g_R) \langle \phi' \big| j_{n+1} \big| \phi \rangle                         \\
+        + (-1)^{I-K} \big[ & \langle I-K11 \big| I'K' \rangle (g_p-g_R) \langle \phi' \big| j_{p+1} \big| \bar{\phi} \rangle                  \\
+        +                  & \langle I-K11 \big| I'K' \rangle (g_n-g_R)  \langle \phi' \big| j_{n+1} \big| \bar{\phi} \rangle \big]           \\
+        +                  & \langle IK10 \big| I'K' \rangle (g_p-g_R) \langle \phi' \big| j_{pz} \big| \phi \rangle                          \\
+        +                  & \langle IK10 \big| I'K' \rangle (g_n-g_R) \langle \phi' \big| j_{nz} \big| \phi \rangle                          \\
+        + (-1)^{I-K} \big[ & \langle I-K10 \big| I'K' \rangle (g_p-g_R) \langle \phi' \big| j_{pz} \big| \bar{\phi} \rangle                   \\
+        +                  & \langle I-K10 \big| I'K' \rangle (g_n-g_R) \langle \phi' \big| j_{nz} \big| \bar{\phi}  \rangle \big]            \\
+        +                  & \langle IK1-1 \big| I'K' \rangle (g_p-g_R) \langle \phi' \big| j_{p-1} \big| \phi \rangle                        \\
+        +                  & \langle IK1-1 \big| I'K' \rangle (g_n-g_R) \langle \phi' \big| j_{n-1} \big| \phi \rangle                        \\
+        + (-1)^{I-K} \big[ & \langle I-K1-1 \big| I'K' \rangle (g_p-g_R) \langle \phi' \big| j_{p-1} \big| \bar{\phi} \rangle                 \\
+        +                  & \langle I-K1-1 \big| I'K' \rangle (g_n-g_R) \langle \phi' \big| j_{n-1} \big| \bar{\phi} \rangle \big] \}\big|^2
+    \end{aligned}
+\end{equation*}
+
+\begin{equation*}
+    \begin{aligned}
+         & B(M1, I\alpha \rightarrow I'\alpha')
+        = \sum_{K\phi} \sum_{K'\phi'} C_{\phi}^{IK} C_{\phi'}^{I'K'} \big[ \{                                        \\
+         & \langle IK11 \big| I'K' \rangle \big[ (g_p - g_R) \langle \phi' \big| j_{p+} \big| \phi \rangle
+        + (g_n - g_R) \langle \phi' \big| j_{n+} \big| \phi \rangle \big] \times (-\frac{1}{\sqrt{2}})               \\
+         & + \langle IK10 \big| I'K' \rangle \big[ (g_p - g_R) \langle \phi' \big| j_{pz} \big| \phi \rangle
+        + (g_n - g_R) \langle \phi' \big| j_{nz} \big| \phi \rangle \big]                                            \\
+         & + \langle IK1-1 \big| I'K' \rangle \big[ (g_p - g_R) \langle \phi' \big| j_{p-} \big| \phi \rangle
+        + (g_n - g_R) \langle \phi' \big| j_{n-} \big| \phi \rangle \big] \times \frac{1}{\sqrt{2}}\}                \\
+         & + (-1)^{I-K}                                                                                              \\
+         & \{ \langle I-K11 \big| I'K' \rangle \big[ (g_p - g_R) \langle \phi' \big| j_{p+} \big| \bar{\phi} \rangle
+        + (g_n - g_R) \langle \phi' \big| j_{n+} \big| \bar{\phi} \rangle \big] \times (-\frac{1}{\sqrt{2}})         \\
+         & + \langle I-K10 \big| I'K' \rangle \big[ (g_p - g_R) \langle \phi' \big| j_{pz} \big| \bar{\phi} \rangle
+        + (g_n - g_R) \langle \phi' \big| j_{nz} \big| \bar{\phi} \rangle \big]                                      \\
+         & + \langle I-K1-1 \big| I'K' \rangle \big[ (g_p - g_R) \langle \phi' \big| j_{p-} \big| \bar{\phi} \rangle
+                + (g_n - g_R) \langle \phi' \big| j_{n-} \big| \bar{\phi} \rangle \big] \times \frac{1}{\sqrt{2}}\} \big]
+    \end{aligned}
+\end{equation*}
+
+
+\end{document}

@@ -1,0 +1,394 @@
+<mxfile host="65bd71144e">
+    <diagram id="WaCm6aiQ0fSDW8qeU_Zt" name="Page-1">
+        <mxGraphModel dx="732" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" parent="1" source="10" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="选择初末态总自旋" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="80" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="MIniState&lt;br&gt;MFinState" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="80" width="105" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" parent="1" source="13" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" parent="1" source="13" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" parent="1" source="13" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" parent="1" source="13" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="从文件中读入波函数、强耦合基矢" style="shape=round;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="170" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;shape=link;" parent="1" source="17" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="MIniWF&lt;br&gt;MFinWF" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="180" width="105" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="MIniNSCVector&lt;br&gt;MFinNSCVector" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="180" width="135" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;" parent="1" source="35" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="磁跃迁数组归零" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="280" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=none;html=1;" parent="1" source="37" target="39" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=none;html=1;" parent="1" source="37" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" style="edgeStyle=none;html=1;" edge="1" parent="1" source="37" target="138">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="500" y="383"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="循环初末态强耦合基矢" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="557.5" y="360" width="135" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="html=1;shape=link;" parent="1" source="39" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="IniK, FinK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="768" y="363.13" width="89" height="38.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="左矢粒子排布&lt;br&gt;右矢粒子排布" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="360" width="159" height="39.38" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=none;html=1;" parent="1" source="46" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="edgeStyle=none;html=1;" parent="1" source="46" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="624.9961764705881" y="570.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="循环球张量下标" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="573.75" y="468.75" width="102.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="index=-1, 0, 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="768" y="476.25" width="120" height="32.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="144" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="713.1199999999999" y="590.7655893438631" as="sourcePoint"/>
+                        <mxPoint x="780" y="730" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="134" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="624.378846153846" y="650.0000000000001" as="sourcePoint"/>
+                        <mxPoint x="624.3849999999999" y="690.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="CGNormal&lt;br&gt;CGInverse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="801.63" y="692.81" width="120" height="44.38" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="edgeStyle=none;html=1;" parent="1" source="56" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="768" y="820.0050000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="56" target="83" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="计算正态J矩阵元" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="565.005" y="790.005" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="edgeStyle=none;html=1;" parent="1" source="60" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="edgeStyle=none;html=1;" parent="1" source="60" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="将强耦合基在此条单j壳上的粒子排布赋值给左右矢" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="768" y="795" width="145" height="50.01" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="BSPVector=SPVector(bra)&lt;br&gt;KSPVector=SPVector(ket)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="965" y="800" width="185" height="40.01" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="edgeStyle=none;html=1;" parent="1" source="64" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="将一组产生消灭算符作用在左右矢上" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="779.5" y="900" width="120" height="49.97" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="edgeStyle=none;html=1;" parent="1" source="66" target="68" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="69" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3" y="3" relative="1" as="geometry">
+                        <mxPoint x="14" y="12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="66" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1039" y="1054.97"/>
+                            <mxPoint x="1039" y="924.97"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="判断作用后左右矢&lt;br&gt;是否完全一致" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="757.38" y="1009.97" width="164.25" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="68" edge="1" target="76">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="990.3922925590716" y="1164.1202799667503" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="调用解耦因子" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="779.5" y="1150.0800000000002" width="120" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="不一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="864.0024303690676" y="1160.2045342034176" as="geometry">
+                        <mxPoint x="147" y="-160" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="630" y="1220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="940" y="1220"/>
+                        </Array>
+                        <mxPoint x="940" y="1170" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="130" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="76" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1290" y="990" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1320" y="1168"/>
+                            <mxPoint x="1320" y="820"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="此条单j壳对应的J矩阵元&lt;br&gt;NJplus(tau3) 或 NJz(tau3) 或 NJminus(tau3)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="985" y="1142.6900000000003" width="289.5" height="49.77" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="求和" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="914" y="1124.97" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="83" target="86" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="83" target="90" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="根据单j壳上的粒子类型（质子/中子）确定g因子" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="552.5" y="1275" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="NJplus(tau3)=g_factor*NJplus(tau3)&lt;br&gt;NJz(tau3)=g_factor*NJz(tau3)&lt;br&gt;NJminuz(tau3)=g_factor*NJminux(tau3)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="794" y="1270" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="edgeStyle=none;html=1;" parent="1" source="90" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="768" y="1429.9950000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="90" target="108" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="计算反演态J矩阵元" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="565.005" y="1399.995" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="edgeStyle=none;html=1;" parent="1" source="93" target="94" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="edgeStyle=none;html=1;" parent="1" source="93" target="96" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="将强耦合基在此条单j壳上的粒子排布赋值给左右矢" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="768" y="1404.99" width="145" height="50.01" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="BSPVector=SPVector(bra)&lt;br&gt;KSPVector=ISPVector(ket)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="965" y="1409.99" width="195" height="40.01" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="" style="edgeStyle=none;html=1;" parent="1" source="96" target="100" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="将一组产生消灭算符作用在左右矢上" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="779.5" y="1509.99" width="120" height="49.97" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="edgeStyle=none;html=1;" parent="1" source="100" target="102" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="97" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3" y="3" relative="1" as="geometry">
+                        <mxPoint x="14" y="12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="100" target="96" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1039" y="1664.96"/>
+                            <mxPoint x="1039" y="1534.96"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="判断作用后左右矢&lt;br&gt;是否完全一致" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="757.38" y="1619.96" width="164.25" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="102" edge="1" target="105">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="990.3922925590716" y="1774.1102799667503" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="102" value="调用解耦因子" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="779.5" y="1752.69" width="120" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="不一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="864.0024303690676" y="1770.1945342034176" as="geometry">
+                        <mxPoint x="147" y="-160" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;exitX=0.52;exitY=1.168;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="106" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="630" y="1829.99" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="940" y="1830"/>
+                        </Array>
+                        <mxPoint x="940" y="1780" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="131" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="105" target="94" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1320" y="1778"/>
+                            <mxPoint x="1320" y="1430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="此条单j壳对应的J矩阵元&lt;br&gt;IJplus(tau3) 或 IJz(tau3) 或 IJminus(tau3)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="1745.31" width="289.5" height="49.77" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="求和" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="914" y="1734.96" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="108" target="109" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="108" target="111" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="根据单j壳上的粒子类型（质子/中子）确定g因子" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="552.51" y="1884.99" width="145" height="50.01" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="IJplus(tau3)=g_factor*IJplus(tau3)&lt;br&gt;IJz(tau3)=g_factor*IJz(tau3)&lt;br&gt;IJminuz(tau3)=g_factor*IJminux(tau3)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="794" y="1879.99" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="111" target="113" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="111" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="450" y="2065"/>
+                            <mxPoint x="450" y="489"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="111" target="116" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="根据当前循环的球张量下标，&lt;br&gt;选择对应的J矩阵元存入磁跃迁数组&lt;br&gt;并乘上本体系和实验室系之间的变换系数" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="526.25" y="2030" width="197.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="BMResArray(bra,ket)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="787.5" y="2047.5" width="177.5" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="116" target="118" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="116" target="121" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="乘当前左右矢对应的波函数" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="526.25" y="2180" width="197.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="118" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1400" y="2210"/>
+                            <mxPoint x="1400" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="118" value="BMResArray(bra,ket) = BMResArray(bra,ket)&lt;br&gt;*MFinWF(bra)*MIniWF(ket)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="841.5" y="2175" width="197.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="121" target="123" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="对所有基矢计算所得的BMResArray(bra,ket)求和" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="552.5" y="2290" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="123" target="125" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="取模方" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="592.5" y="2380" width="65" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=flexArrow;" parent="1" source="125" target="127" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="&amp;nbsp;乘系数 3/4pi" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="582.5" y="2450" width="85" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="M1跃迁几率结果" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="2560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="56">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="625.0049999999999" y="740" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="136" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="143" target="48">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="741.5699999999999" y="700" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="970" y="610"/>
+                            <mxPoint x="970" y="493"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="135" value="满足，不为零" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="623.75" y="650" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="不满足，为零" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="757.38" y="580" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" style="edgeStyle=none;html=1;" edge="1" parent="1" source="138">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="438.125" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" value="循环数组归零" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="420" width="96.25" height="36.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="FinK, IniK, index是否满足&lt;br&gt;CG系数不为零条件" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="508.43999999999994" y="570" width="233.13" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="根据IniK, FinK, index, MIniState, MFinState计算CG系数" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="536.88" y="690" width="176.25" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
